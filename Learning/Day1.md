@@ -16,12 +16,12 @@ Pre req
 html ,css ,javascript, react
 
 File Based Routing  (all about routing folder)
-Routes
-Nested Routes
-Dynamic Routes
-nested Dynamic Routes
-catch all
-optional catch all
-custom not found page
+Routes,
+Nested Routes,
+Dynamic Routes,
+nested Dynamic Routes,
+catch all,
+optional catch all,
+custom not found page,
 custom not found page for specific route
 
