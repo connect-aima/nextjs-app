@@ -32,4 +32,5 @@ static meta data ,dynamic meta data both static and tthrough function cannot use
 Title meta data (can be string and object (default , template, absolute)),
 Linking components navigation, active links ,tailwind css,
 Params = values that are part of the URL path or resolves to an pbject containing dynamic route
-Search params (query) = values that come after ? in the URL or resolves to an pbject containing query(filter or sorting)
+Search params (query) = values that come after ? in the URL or resolves to an pbject containing query(filter or sorting) 
+,to access values of params and search params in client component you use react "use" hook

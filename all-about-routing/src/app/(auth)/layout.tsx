@@ -1,5 +1,5 @@
 "use client"
-import "./style.css"
+// import "./style.css"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 

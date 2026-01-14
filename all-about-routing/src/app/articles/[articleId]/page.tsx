@@ -1,5 +1,7 @@
+"use client"
 import Link from "next/link"
-export default async function NewsArticle(
+import {use} from "react"
+export default  function NewsArticle(
     {params,searchParams}
     :
     {
@@ -8,8 +10,8 @@ export default async function NewsArticle(
     }
 )
 {
-    const {articleId} = await params;
-    const {lang = "en"}=await searchParams;
+    const {articleId} = use(params) ;
+    const {lang = "en"}=use(searchParams) ;
     return(
         <div>
             <h1>News Article {articleId}</h1>
