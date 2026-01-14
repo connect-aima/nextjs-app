@@ -29,5 +29,6 @@ Private Folders (add _ at begining of folder) even page.tsx wont creatte route h
 Route Groups
 layouts,customized layouts ,multiple roots layouts
 static meta data ,dynamic meta data both static and tthrough function cannot use both at once also cannot use with pages useClient directive there is a way to do it which i used in counter folder,
-Title meta data (can be string and object (default , template, absolute))
+Title meta data (can be string and object (default , template, absolute)),
+Linking components navigation, active links ,tailwind css,
 
