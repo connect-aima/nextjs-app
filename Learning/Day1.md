@@ -28,9 +28,11 @@ File collocation ,
 Private Folders (add _ at begining of folder) even page.tsx wont creatte route here,
 Route Groups
 layouts,customized layouts ,multiple roots layouts
-static meta data ,dynamic meta data both static and tthrough function cannot use both at once also cannot use with pages useClient directive there is a way to do it which i used in counter folder,
+static meta data ,dynamic meta data both static and through function cannot use both at once also cannot use with pages useClient directive there is a way to do it which i used in counter folder,
 Title meta data (can be string and object (default , template, absolute)),
 Linking components navigation, active links ,tailwind css,
 Params = values that are part of the URL path or resolves to an pbject containing dynamic route
 Search params (query) = values that come after ? in the URL or resolves to an pbject containing query(filter or sorting) 
 ,to access values of params and search params in client component you use react "use" hook
+Navigating programmatically
+
