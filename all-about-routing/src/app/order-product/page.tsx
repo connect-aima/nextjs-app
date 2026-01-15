@@ -7,7 +7,7 @@ export default function OrderProduct(){
         alert("order placed")
         router.push("/")
 
-    }
+    } 
     return (
         <>
         <h1>Order product</h1>

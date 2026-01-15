@@ -34,5 +34,5 @@ Linking components navigation, active links ,tailwind css,
 Params = values that are part of the URL path or resolves to an pbject containing dynamic route
 Search params (query) = values that come after ? in the URL or resolves to an pbject containing query(filter or sorting) 
 ,to access values of params and search params in client component you use react "use" hook
-Navigating programmatically
+Navigating programmatically using app router and redirect function
 
