@@ -1,13 +1,12 @@
 import { Card } from "@/src/components/card";
 import Link from "next/link";
-export default function Not(){
+export default function ArNot(){
     return (
         <Card>
-            <div>Notifications
-                <br />
+            <div>Archived notifications
             </div>
             <div>
-                <Link href="/complex-dashboard/archived">Archived</Link>
+                <Link href="/complex-dashboard">Default</Link>
                 </div>       
             </Card>
     )

@@ -6,5 +6,6 @@ Error.tsx
 
 Component hierarchy in Next.js (App Router, top → bottom):
 
-layout.tsx → template.tsx → loading.tsx / error.tsx → page.tsx → child components
+layout.tsx → template.tsx → loading.tsx / error.tsx → page.tsx → child components,
+Parralel routes slots ,condotional routes,unmatched routes
 

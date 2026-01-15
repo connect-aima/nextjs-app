@@ -1,16 +1,19 @@
 import "./style.css"
 export default function ComplexDashboardLayout({
   children,
+  login,
   userAnalytics,
   revenueMetrics,
   notifications
 }: {
   children: React.ReactNode;
+  login: React.ReactNode;
   userAnalytics: React.ReactNode;
   revenueMetrics: React.ReactNode;
   notifications: React.ReactNode;
 }) {
-  return (
+  const isLoggedIn=true;
+  return isLoggedIn?  (
     <>
       
 <div>
@@ -29,5 +32,7 @@ export default function ComplexDashboardLayout({
 </div>
 
     </>
-  );
+  ):(
+    login
+  )
 }
