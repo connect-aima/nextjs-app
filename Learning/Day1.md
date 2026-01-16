@@ -15,11 +15,11 @@ simplifies the process to build production ready web applications
 Pre req
 html ,css ,javascript, react
 
-File Based Routing  (all about routing folder)
+File Based Routing  (all about routing folder) 
 Routes,
 Nested Routes,
-Dynamic Routes,
-nested Dynamic Routes,
+Dynamic Routes, 
+nested Dynamic Routes, 
 catch all,
 optional catch all,
 custom not found page,
