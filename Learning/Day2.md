@@ -8,6 +8,7 @@ Component hierarchy in Next.js (App Router, top → bottom):
 
 layout.tsx → template.tsx → loading.tsx / error.tsx → page.tsx → child components,
 Parralel routes slots ,condotional routes,unmatched routes ,
+Advance Routing Concepts (Paraalel routes,intercepting routes , parrale intercepting routes)
 intercepted routes=>Intercepting routes in Next.js let you show a different route inside the current page UI (like opening a modal) without fully navigating away.
 They keep the background page visible while rendering the intercepted route on top, improving UX for things like previews or dialogs.
 Conventions of intercepting routes
